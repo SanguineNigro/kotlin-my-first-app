@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E633B5E5"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tekst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@android:color/holo_blue_light"
+        android:padding="5dp"
+        android:text="@string/pozwol_androidowi_wybrac_za_ciebie"
+        android:textColor="#01403A"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/wchodze"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="5dp"
+            android:text="@string/wchodze_w_to"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/rezygnuje"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:color/holo_blue_dark"
+            android:padding="5dp"
+            android:text="@string/rezygnuje"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">losowanie</string>
+    <string name="pozwol_androidowi_wybrac_za_ciebie">Pozwól Androidowi wybrać za Ciebie</string>
+    <string name="wchodze_w_to">Wchodze w to!</string>
+    <string name="rezygnuje">Rezygnuje</string>
+    <string name="wpisz_ponizej">Poniżej wpisz nad czym nie możesz się zdecydować</string>
+    <string name="ponizej_wpisz">Poniżej wpisz swój dylemat</string>
+    <string name="twoj_tekst">Twój tekst</string>
+</resources>
