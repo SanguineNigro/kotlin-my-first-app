@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         wchodze.setOnClickListener {
-            var message = Toast.makeText(applicationContext,"Dziękuję!",Toast.LENGTH_LONG)
+            var message = Toast.makeText(applicationContext,"Dziękuję!",Toast.LENGTH_SHORT)
             message.show()
         }
 
