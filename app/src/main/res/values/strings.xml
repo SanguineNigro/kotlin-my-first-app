@@ -6,4 +6,6 @@
     <string name="wpisz_ponizej">Poniżej wpisz nad czym nie możesz się zdecydować</string>
     <string name="ponizej_wpisz">Poniżej wpisz swój dylemat</string>
     <string name="twoj_tekst">Twój tekst</string>
+    <string name="opcje_wyboru">Poniżej wpisz opcje wyboru</string>
+    <string name="losuj">Losuj!</string>
 </resources>
