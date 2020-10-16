@@ -8,4 +8,7 @@
     <string name="twoj_tekst">Twój tekst</string>
     <string name="opcje_wyboru">Poniżej wpisz opcje wyboru</string>
     <string name="losuj">Losuj!</string>
+    <string name="pierwsza">pierwsza</string>
+    <string name="druga">druga</string>
+    <string name="trzecia">trzecia</string>
 </resources>

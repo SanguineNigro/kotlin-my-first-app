@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
+    android:background="@android:color/darker_gray"
     android:orientation="vertical">
 
     <TextView
@@ -17,19 +17,23 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <EditText
-        android:id="@+id/twojtekst"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:autofillHints=""
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:labelFor="@id/twojtekst"
-        android:text="@string/twoj_tekst" />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/twoj_tekst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="@string/twoj_tekst" />
+    </android.support.design.widget.TextInputLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
         android:orientation="vertical">
 
         <TextView
@@ -46,7 +50,9 @@
         <android.support.design.widget.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="pierwsza" />
+            android:clickable="true"
+            android:focusable="true"
+            android:hint="@string/pierwsza" />
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -55,13 +61,24 @@
             <android.support.design.widget.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="druga" />
+                android:clickable="true"
+                android:focusable="true"
+                android:hint="@string/druga" />
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <android.support.design.widget.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/trzecia" />
+            </android.support.design.widget.TextInputLayout>
         </android.support.design.widget.TextInputLayout>
 
     </LinearLayout>
@@ -69,15 +86,18 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@android:color/darker_gray"
         android:gravity="center"
         android:orientation="vertical">
 
         <Button
             android:id="@+id/losuj"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|center"
-            android:text="@string/losuj" />
+            android:text="@string/losuj"
+            android:textSize="18sp" />
     </LinearLayout>
 
 </LinearLayout>

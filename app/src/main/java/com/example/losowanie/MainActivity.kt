@@ -1,5 +1,6 @@
 package com.example.losowanie
 
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
@@ -12,9 +13,13 @@ class MainActivity : AppCompatActivity() {
 
         wchodze.setOnClickListener {
             var message = Toast.makeText(applicationContext,"Dziękuję",Toast.LENGTH_SHORT)
+            message.show()
+            var newActivity: Intent = Intent (applicationContext, MainActivity2::class.java)
+            startActivity(newActivity)
         }
         rezygnuje.setOnClickListener {
             var message = Toast.makeText(applicationContext,"Może innym razem?",Toast.LENGTH_SHORT)
+            message.show()
         }
     }
 }
