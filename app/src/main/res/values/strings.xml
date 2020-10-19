@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Dokonaj Wyboru</string>
+    <string name="pozwol_dokonac">Pozwól Androidowi dokonać wyboru</string>
+    <string name="wchodze">Wchodzę!</string>
+    <string name="rezygnuje">Rezygnuję</string>
+    <string name="wpisz_dylemat">Poniżej wpisz swój dylemat</string>
+    <string name="moj_dylemat">Mój dylemat to...</string>
+     <string name="opcje_wyboru">Opcje wyboru:</string>
+    <string name="wpisz_opcje">Wpisz opcję</string>
+    <string name="opcje">Wpisz opcje</string>
+    <string name="losuj">Losuj!</string>
+    <string name="dodaj_opcje">Dodaj opcję</string>
+</resources>
