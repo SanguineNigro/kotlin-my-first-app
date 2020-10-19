@@ -12,15 +12,18 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         wchodze.setOnClickListener {
-            var message = Toast.makeText(applicationContext,"Dziękuję",Toast.LENGTH_SHORT)
+            var message = Toast.makeText(applicationContext, "Dziękuję", Toast.LENGTH_SHORT)
             message.show()
 
-            var newActivity: Intent = Intent (applicationContext, MainActivity2::class.java)
+            var newActivity: Intent = Intent(applicationContext,MainActivity2::class.java)
             startActivity(newActivity)
+
         }
 
         rezygnuje.setOnClickListener {
-            var message = Toast.makeText(applicationContext,"Może innym razem?",Toast.LENGTH_SHORT)
+            var message =
+                Toast.makeText(applicationContext, "Może innym razem?", Toast.LENGTH_SHORT)
             message.show()
+        }
     }
 }

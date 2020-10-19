@@ -28,6 +28,11 @@
             android:layout_height="wrap_content"
             android:background="#A1AAAAAA"
             android:hint="@string/moj_dylemat"
+            android:inputType="text"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="#686363"
+            android:textColorLink="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray"
             android:textSize="24sp" />
 
     </android.support.design.widget.TextInputLayout>
@@ -63,6 +68,10 @@
             android:hint="@string/opcje"
             android:inputType="textPersonName"
             android:padding="10dp"
+            android:textColorHighlight="@android:color/darker_gray"
+            android:textColorHint="#454444"
+            android:textColorLink="@android:color/darker_gray"
+            android:textCursorDrawable="@android:color/darker_gray"
             android:textSize="20sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
